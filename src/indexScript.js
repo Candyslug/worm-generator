@@ -1,5 +1,5 @@
 
-const slider_count = 5;
+const slider_count = 6;
 
 randomizeAll();
 setButtonBehaviour();
@@ -52,7 +52,8 @@ function generateWorm() {
     var repeats = Number(document.getElementById("worm-repeats-slider").value);
     var wormcount = Number(document.getElementById("worm-count-slider").value);
     var gaplength = Number(document.getElementById("worm-gap-slider").value);
-    //ret = " "+txt+" ";
+    var textgap = Number(document.getElementById("worm-text-gap-slider").value);
+    txt = (" ").repeat(textgap)+txt+(" ").repeat(textgap);
     for (var xx = 0; xx < repeats; xx++) {
         for (var i = 0; i < count; i++) {
             for (var j = 0; j < wormcount; j++) {
@@ -70,7 +71,7 @@ function generateWorm() {
         }
     }
     for (var i = 0; i < wormcount; i++) {
-        ret += ("=").repeat(min)+txt+("=").repeat(count+min);
+        ret += ("=").repeat(min)+txt+("=").repeat(count+min-1);
         ret += (" ").repeat(gaplength);
     }
     ret += "\n";
@@ -109,5 +110,12 @@ document.getElementById("worm-gap-slider").oninput = function() {
     updateSliderText(
         document.getElementById("worm-gap-slider").value,
         document.getElementById("worm-gap-text")
+    );
+}
+
+document.getElementById("worm-text-gap-slider").oninput = function() {
+    updateSliderText(
+        document.getElementById("worm-text-gap-slider").value,
+        document.getElementById("worm-text-gap-text")
     );
 }
