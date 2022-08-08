@@ -41,6 +41,7 @@ function randomizeAll() {
     }
     if (document.getElementById("settings-input").value == "")
         document.getElementById("settings-input").value = "Hello World!";
+    generateWorm();
 }
 
 function generateWorm() {
