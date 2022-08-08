@@ -1,8 +1,8 @@
 <p><i>Worm</i> art generator</p>
-<p>Originally made in Python for fun.</p>
-<p>Ported to javascript and added a user interface</p>
+<p>Originally made in Python for fun...</p>
+<p>Decided to port it to javascript and create a user interface</p>
 <br>
-<p>Link to demo!</p>
+<p>Link to demo!!! Give it a try</p>
 <br>
 <br>
 <img src="app-screenshot.PNG" width=800>
