@@ -3,7 +3,7 @@
 <p>Decided to port it to javascript and create a user interface</p>
 <br>
 <p>Link to demo!!! Give it a try</p>
-<p>https://candyslug.github.io/worm-generator/src/index.html</p>
+<p>https://davlondev.github.io/worm-generator/src/index.html</p>
 <br>
 <br>
 <img src="app-screenshot.PNG" width=800>
