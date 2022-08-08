@@ -1,5 +1,5 @@
 * {
-/*   outline: 2px red solid;*/
+ /*  outline: 2px red solid;*/
 }
 
 html, body {
@@ -86,4 +86,15 @@ button {
     cursor: pointer;
     background-color: red;
     border-radius: 0px;
+}
+
+#link-area {
+    margin-top: 25px;
+    width: 85px;
+    height: 85px;
+}
+
+#git-logo {
+    width: 85px;
+    margin-left:-12px;
 }
