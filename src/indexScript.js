@@ -39,7 +39,7 @@ function randomizeAll() {
         x[i].value = n;
         updateSliderText(x[i].value, z[i]);
     }
-    document.getElementById("settings-input").value = "Hello World!";
+    //document.getElementById("settings-input").value = "Hello World!";
 }
 
 function generateWorm() {
