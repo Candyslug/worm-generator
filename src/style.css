@@ -2,9 +2,13 @@
 /*  outline: 2px red solid;*/
 }
 
-html, body {
+html {
     height: 100%;
+}
+
+body{
     background-image: linear-gradient(to bottom, rgb(76, 86, 106), rgb(20, 30, 40));
+    background-attachment: fixed;
 }
 
 html body {
@@ -98,4 +102,5 @@ button {
 #git-logo {
     width: 85px;
     margin-left:-12px;
+    margin-bottom: 20px;
 }
