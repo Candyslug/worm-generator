@@ -19,6 +19,7 @@ html body {
 
 p {
     text-shadow: 2px 2px black;
+    white-space: nowrap;
 }
 
 #title p {
