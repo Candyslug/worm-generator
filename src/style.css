@@ -27,6 +27,7 @@ p {
     text-shadow: 5px 5px black;
     text-align: center;
     margin-bottom: 30px;
+    white-space: normal;
 }
 
 #settings-title {
